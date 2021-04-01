@@ -1,0 +1,25 @@
+minimum_cumulusci_version: '3.31.0'
+project:
+    name: sai
+    package:
+        name: veer
+        api_version: '50.0'
+    git:
+        default_branch: 'main'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/sai/tests
+            options:
+                outputdir: robot/sai/results
+
+    robot_testdoc:
+        options:
+            path: robot/sai/tests
+            output: robot/sai/doc/sai_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
