@@ -46,8 +46,16 @@
         <field>Orders__c.Shipping_Street__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Products__c.Product_Code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Orders__c-Orders Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Products__c-Products Layout</layout>
     </layoutAssignments>
     <tabVisibilities>
         <tab>Order_Line_Items__c</tab>
