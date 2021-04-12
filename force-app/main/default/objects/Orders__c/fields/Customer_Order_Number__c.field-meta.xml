@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Customer_Order_Number__c</fullName>
-    <displayFormat>CIN-{0000}</displayFormat>
+    <displayFormat>ORD-{0000}</displayFormat>
     <externalId>false</externalId>
     <label>Customer Order Number</label>
     <trackHistory>false</trackHistory>
